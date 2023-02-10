@@ -14,7 +14,7 @@ const newStudent = new Student({
 })
 
 newStudent.save().then(()=>{
-    res.json("student added")
+    res.json(" ")
 }).catch((err)=>{
     console.log(err);
 })
